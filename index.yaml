@@ -335,6 +335,13 @@ indexes:
   properties:
   - name: feature_id
   - name: gate_id
+  - name: state
+  - name: set_by
+  - name: set_on
+- kind: Vote
+  properties:
+  - name: feature_id
+  - name: gate_id
   - name: set_by
   - name: set_on
 - kind: Vote
